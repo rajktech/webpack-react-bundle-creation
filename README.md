@@ -144,7 +144,7 @@ This is the complete file:</p>
 </pre>
 
 <p>Create a webpack.config.js in the root folder</p>
-<code>
+<pre>
 const path = require('path');
 const autoprefixer = require('autoprefixer');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -207,7 +207,7 @@ module.exports = {
         })
     ]
 };
-</code>
+</pre>
 
 <p>Let’s run our example project in development first:</p>
 <pre>npm run start</pre>
