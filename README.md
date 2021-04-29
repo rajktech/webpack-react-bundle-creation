@@ -58,16 +58,16 @@ import ReactDOM from "react-dom";
 import MyImage from './assets/dog.jpg';
 import './index.css';
 
-const App = () => {
+const App = () =&gt; {
   return (
-    <div>
-        <div>Welcome to my-webpack-react-starter</div>
-        <img src={MyImage} />
-    </div>
+    &lt;div&gt;
+        &lt;div&gt;Welcome to my-webpack-react-starter&lt;/div&gt;
+        &lt;img src={MyImage} /&gt;
+    &lt;/div&gt;
   );
 };
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(&lt;App /&gt;, document.querySelector("#root"));
 </pre>
 
 <h4>Edit your index.css</h4>
@@ -144,7 +144,7 @@ This is the complete file:</p>
 </pre>
 
 <p>Create a webpack.config.js in the root folder</p>
-<pre>
+<code>
 const path = require('path');
 const autoprefixer = require('autoprefixer');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -207,7 +207,7 @@ module.exports = {
         })
     ]
 };
-</pre>
+</code>
 
 <p>Let’s run our example project in development first:</p>
 <pre>npm run start</pre>
