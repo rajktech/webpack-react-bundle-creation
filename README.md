@@ -215,3 +215,8 @@ module.exports = {
 <p>To build your production release:</p>
 <pre>npm run build</pre>
 
+
+##
+
+[![GitHub followers](https://img.shields.io/github/followers/rajktech.svg?label=Follow%20@rajktech&style=social)](https://github.com/rajktech/)
+
