@@ -152,7 +152,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/index.js',
     output: {
-        path: path.resolve(_\_dirname, 'dist'),
+        path: path.resolve(&#95;&#95;dirname, 'dist'),
         filename: 'bundle.js',
         chunkFilename: '[id].js',
         publicPath: ''
@@ -176,7 +176,7 @@ module.exports = {
                         loader: 'css-loader',
                         options: {
                             modules: {
-                                localIdentName: "[name]_\_[local]_\__[hash:base64:5]",
+                                localIdentName: "[name]&#95;&#95;[local]&#95;&#95;[hash:base64:5]",
                             },														
                             sourceMap: true
                         }
