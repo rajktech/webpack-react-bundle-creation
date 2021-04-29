@@ -4,15 +4,15 @@ This repo has sample code of creating bundle of react app created without CRA me
 Reference: https://medium.com/swlh/a-complete-webpack-setup-for-react-e56a2edf78ae
 
 <h3>Steps:</h3>
-<b>Create a folder</b><br />
+<h4>Create a folder</h4>
 <pre>mkdir webpack-react-bundle-creation
 cd webpack-react-bundle-creation</pre>
 
-<b>Init your project. -y will skip the questions</b><br />
+<h4>Init your project. -y will skip the questions</h4>
 <pre>npm init -y</pre>
 
-<b>Install webpack, CLI and the development server for testing</b>
+<h4>Install webpack, CLI and the development server for testing</h4>
 <pre>npm install --save-dev webpack webpack-cli webpack-dev-server</pre>
 
-<b>Install React and React DOM as dependencies</b>
+<h4>Install React and React DOM as dependencies</h4>
 <pre>npm install react react-dom</pre>
